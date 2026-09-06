@@ -50,7 +50,7 @@
     </div>
 
     <div id="part2">
-        <div v-bind:style="{ color: activeColor }">
+        <div id="demo2" v-bind:style="{ color: activeColor }">
             div ID : demo2
         </div>
        

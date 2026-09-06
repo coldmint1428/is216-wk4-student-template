@@ -2,7 +2,7 @@
     import { ref } from 'vue'
 
     // Add code here
-    const me = ref('/assets/me.png')
+    const me = ref(`${import.meta.env.BASE_URL}assets/me.png`)
     const width = ref(300)
     const height = ref(200)
 
