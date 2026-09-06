@@ -2,6 +2,7 @@
     import { ref } from 'vue'
 
     // Add code here
+
     
     
 </script>
@@ -16,8 +17,13 @@
     </select>
     
     <div>
-        <label>Username</label>
+        <label>Username <v-if></v-if></label>
         <input placeholder="Enter your username">
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input placeholder="Enter your Email">
     </div>
 </template>
 

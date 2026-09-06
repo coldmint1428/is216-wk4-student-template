@@ -15,5 +15,5 @@
     <img v-bind:src="me" v-bind:width="width" v-bind:height="height">
 
     <!-- multiple attribute binding: one object holds all the attributes at once -->
-    <!-- <img v-bind="{ src: me, width: width, height: height }"> -->
+    <img v-bind="{ src: me, width: width, height: height }">
 </template>
