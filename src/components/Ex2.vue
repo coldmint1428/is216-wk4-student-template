@@ -6,16 +6,14 @@
     const width = ref(300)
     const height = ref(200)
 
-    const imgProps = { src: me.value, width: width.value, height: height.value }
-
 </script>
 
 <template>
 
     <!-- Add code here -->
-     <img v-bind:src="me" v-bind:width="width" v-bind:height="height">
+    <!-- single attribute binding: each attribute bound separately -->
+    <img v-bind:src="me" v-bind:width="width" v-bind:height="height">
 
-    
-    <img v-bind="imgProps">
-    
+    <!-- multiple attribute binding: one object holds all the attributes at once -->
+    <img v-bind="{ src: me, width: width, height: height }">
 </template>
