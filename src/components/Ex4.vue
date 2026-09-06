@@ -51,7 +51,7 @@
 
     <div id="part2">
         <div v-bind:style="{ color: activeColor }">
-            div ID : {{id}} 
+            div ID : demo2
         </div>
        
         <button type="button" v-on:click="changeTextColor">Change Text Color</button> 

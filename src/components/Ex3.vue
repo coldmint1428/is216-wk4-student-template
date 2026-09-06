@@ -3,8 +3,7 @@
 
     // Add code here
     const selected = ref('Username login')
-    
-    
+
 </script>
 
 <template>
@@ -17,7 +16,7 @@
     </select>
     
     <div v-if="selected === 'Username login'">
-        <label>Username <v-if></v-if></label>
+        <label>Username</label>
         <input placeholder="Enter your username">
     </div>
 
@@ -26,4 +25,3 @@
         <input placeholder="Enter your Email">
     </div>
 </template>
-
