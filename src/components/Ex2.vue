@@ -5,7 +5,6 @@
     const me = ref('/public/assets/me.png')
     const width = ref(300)
     const height = ref(200)
-
     const imgProps = reactive({ src: me, width: width, height: height })
 
 </script>
