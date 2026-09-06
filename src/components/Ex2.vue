@@ -1,11 +1,11 @@
 <script setup>
-    import { ref, reactive } from 'vue'
+    import { ref } from 'vue'
 
     // Add code here
     const me = ref('/public/assets/me.png')
     const width = ref(300)
     const height = ref(200)
-    const imgProps = reactive({ src: me, width: width, height: height })
+    const imgProps = { src: me.value, width: width.value, height: height.value }
 
 </script>
 
