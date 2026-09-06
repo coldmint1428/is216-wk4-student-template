@@ -22,6 +22,6 @@
 
     <div v-else>
         <label>Email</label>
-        <input placeholder="Enter your Email">
+        <input placeholder="Enter your email address">
     </div>
 </template>

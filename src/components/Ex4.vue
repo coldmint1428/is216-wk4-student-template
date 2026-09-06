@@ -46,7 +46,7 @@
             div ID : {{id}} 
         </div>
         
-        <button type="button"  v-on:click="changeColor">Change Color</button>
+        <button type="button" v-bind:class="{'btn-primary': blueBtn, 'btn-danger': !blueBtn}" v-on:click="changeColor">Change Color</button>
     </div>
 
     <div id="part2">
@@ -54,7 +54,7 @@
             div ID : demo2
         </div>
        
-        <button type="button" v-on:click="changeTextColor">Change Text Color</button> 
+        <button type="button" v-bind:class="{'btn-primary': !redBtn, 'btn-danger': redBtn}" v-on:click="changeTextColor">Change Text Color</button> 
     </div>
 
 </template>
