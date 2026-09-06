@@ -2,7 +2,7 @@
     import { ref } from 'vue'
 
     // Add code here
-
+    const selected = ref('Username login')
     
     
 </script>
@@ -11,17 +11,17 @@
     <h1>Please select your login option</h1>
     <!-- Add/modify code in the following to have a dropdown list 
         which lets the user to select either to login with username or email -->
-    <select>
+    <select v-model="selected">
         <option selected>Username login</option>
         <option>Email login</option>
     </select>
     
-    <div>
+    <div v-if="selected === 'Username login'">
         <label>Username <v-if></v-if></label>
         <input placeholder="Enter your username">
     </div>
 
-    <div>
+    <div v-else>
         <label>Email</label>
         <input placeholder="Enter your Email">
     </div>
