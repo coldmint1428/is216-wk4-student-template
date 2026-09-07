@@ -11,7 +11,7 @@
     <!-- Add/modify code in the following to have a dropdown list 
         which lets the user to select either to login with username or email -->
     <select v-model="selected">
-        <option>Username login</option>
+        <option selected>Username login</option>
         <option>Email login</option>
     </select>
     
