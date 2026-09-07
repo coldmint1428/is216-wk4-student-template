@@ -9,7 +9,8 @@
 
     const image = {
         width: '200',
-        height: '200'
+        height: '200',
+        src: '/assets/me.png'
     }
 
 </script>
