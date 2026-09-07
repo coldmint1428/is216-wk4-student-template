@@ -3,7 +3,7 @@
 
     // Add code here
     const me = ref('/public/assets/me.png')
-    const width = ref(300)
+    const width = ref(200)
     const height = ref(200)
     const img2 = { src: me.value, width: width.value, height: height.value }
 
