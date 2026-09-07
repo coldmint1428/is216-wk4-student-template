@@ -5,7 +5,7 @@
     const me = ref('/public/assets/me.png')
     const width = ref(300)
     const height = ref(200)
-    const img = { src: me.value, width: width.value, height: height.value }
+    const img2 = { src: me.value, width: width.value, height: height.value }
 
 </script>
 
@@ -14,7 +14,8 @@
     <!-- Add code here -->
     <!-- single attribute binding: each attribute bound separately -->
     <img v-bind:src="me" v-bind:width="width" v-bind:height="height">
+    
     <br>
     <!-- multiple attribute binding: one object holds all the attributes at once -->
-    <img v-bind="img">
+    <img v-bind="img2">
 </template>
