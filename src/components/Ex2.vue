@@ -14,7 +14,7 @@
     <!-- Add code here -->
     <!-- single attribute binding: each attribute bound separately -->
     <img v-bind:src="me" v-bind:width="width" v-bind:height="height">
-
+    <br>
     <!-- multiple attribute binding: one object holds all the attributes at once -->
     <img v-bind="img">
 </template>
