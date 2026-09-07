@@ -16,12 +16,14 @@
     </select>
     
     <div v-if="selected === 'Username login'">
-        <label>Username</label>
+        <label>Username
         <input placeholder="Enter your username">
+    </label>
     </div>
 
     <div v-else>
-        <label>Email</label>
+        <label>Email
         <input placeholder="Enter your email address">
+        </label>
     </div>
 </template>
